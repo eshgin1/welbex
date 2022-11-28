@@ -1,0 +1,73 @@
+.main{
+    margin-top: 90px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__afisha{
+        width: 362px;
+        &-title{
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 58px;
+            color: $white-color;
+            span{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+                background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+        &-subtitle{
+            margin-top: 30px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: $white-color;
+        }
+    }
+    &__consultation{
+        width: 291px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-title{
+            font-family: 'Inter';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: right;
+            color: $white-color;
+            span{
+                font-family: 'Inter';
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: right;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+        &-elements{
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &-descr{
+            width: 135px;
+        }
+    }
+}

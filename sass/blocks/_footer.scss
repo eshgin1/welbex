@@ -1,0 +1,70 @@
+.footer{
+    margin-top: 70px;
+    padding: 55px 0 20px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        &-title{
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #656566;
+        }
+        &-wrapper{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 408px;
+            height: 200px;
+        }
+    }
+    &__list{
+        margin-top: 20px;
+    }
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__phone{
+        margin-top: 20px;
+    }
+    &__social{
+        margin-top: 20px;
+    }
+    &__address{
+        margin-top: 20px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: $white-color;
+    }
+    &__law{
+        margin-top: 33px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        &-title{
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: $white-color;
+        }
+        &-link{
+            margin-top: 5px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            text-decoration-line: underline;
+            color: $white-color;
+        }
+    }
+}
